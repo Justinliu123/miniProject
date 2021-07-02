@@ -14,5 +14,6 @@ Filter 拦截未登录的用户转发到登录入口页面；使用 Session存�
 
 ## senior-login
 使用vue + elementUI做前端，springboot + mybatis + mysql + redis + jwt 做后端实现的一个先后端分离的登录业务。<br>
+使用docker快速部署
 实现了用户的注册和登录功能；用户身份认证；设置登录信息保持时间<br>
 redis 和 jwt 实现了用户身份认证的功能，前端将用户的jwt存在localStorage中，后端将token作为键、用户名作为值存入redis中，并设置jwt的超时间和redis中键值对的超时时间；当用户想要访问需要用户登录的页面时，进行身份认证，未登录或者登录超时都会重新向导到登录页面。<br>
