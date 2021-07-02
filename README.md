@@ -10,6 +10,7 @@ Filter 拦截未登录的用户转发到登录入口页面；使用 Session存�
 ## 手机端的聊天软件
 使用技术：Springboot + mysql + mybatis + netty + fastDSF存储服务器<br>
 前后端分离的项目
+具体介绍，请进入项目查看
 
 ## senior-login
 使用vue + elementUI做前端，springboot + mybatis + mysql + redis + jwt 做后端实现的一个先后端分离的登录业务。<br>
